@@ -8,7 +8,7 @@ use std::process;
 
 fn main() {
     if env::args().len() != 3 {
-        println!("Usage: compressor <source> <target>");
+        eprintln!("Usage: compressor <source> <target>");
         process::exit(0);        
     }
 
